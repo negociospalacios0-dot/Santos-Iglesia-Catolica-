@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="decoracion">
+        <div class="conjuntoImagen">
+            <img src="FelipeNeri.png" alt="Imagen de Felipe Neri">
+        </div> 
+        <div class="infoFelipe">
+            <h1>San Felipe Neri</h1>
+            <h3>El santo mas alegre</h3>
+            <div class="vacioEspacio"></div>
+            <p>San Felipe Neri (1515 - 1595) fue un sacerdote italiano, conocido como el apóstol de la alegría. Nació en Florencia y pasó la mayor parte de su vida en Roma, donde se dedicó a la oración, la confesión y la ayuda a los pobres y jóvenes. Destacó por su carácter alegre, su sencillez y su profunda vida espiritual.
+            Fundó la Congregación del Oratorio, una comunidad de sacerdotes dedicada a la formación espiritual sin votos religiosos. Fue famoso por su amor a la Eucaristía y por atraer a las personas a Dios a través de la cercanía, el humor y la caridad. Fue canonizado en 1622 y su fiesta se celebra el 26 de mayo.</p>
+            <div class="vacioEspacio"></div>
+            <button id="abrirFamilia">Familia</button>
+            <button id="oppenProfecion">Profecion</button>
+            <button id="abrir">Rezo a Felipe Neri</button>
+            <button id="inicio">Inicio</button>
+        </div>
+    </div>    
+    </div>
+    <div id="fondoId" class="fondo oculto">
+        <div class="contenedor-rezo">
+            <h2>Rezo a Felipe Neri</h2>
+            <p>Oh Dios,que glorificaste a San Felipe Neri<br>
+            con los dones del Espíritu Santo<br>
+            y lo hiciste ejemplo de caridad y alegría cristiana,<br>
+            concédenos, por su intercesión,<br>
+            despreciar las cosas vanas de este mundo<br>
+            y amar siempre las realidades del cielo.<br>
+            <br>
+            Haz que, siguiendo su ejemplo,<br>
+            vivamos con humildad, sencillez y fervor,<br>
+            buscando en todo tu santa voluntad<br>
+            y sirviendo a nuestros hermanos con amor.<br>
+            <br>
+            Por nuestro Señor Jesucristo,<br>
+            que vive y reina contigo<br>
+            en la unidad del Espíritu Santo,<br>
+            por los siglos de los siglos.<br>
+
+            Amén.</p>
+            <button id="cerrar">Cerrar</button>
+        </div>
+    </div>
+    <div id="fondoProfecion" class="contenedorPorfecion vacio">
+        <div class="segundocontenedor">
+            <h2>Profeciones</h2>
+            <p>San Felipe Neri fue sacerdote,<br>
+                fundador de la Congregación del Oratorio,<br>
+                confesor y predicador, y se dedicó al <br>
+                servicio de los pobres y a la formación espiritual.<br></p>
+            <button id="closeProfecion">Cerrar</button>
+        </div>
+    </div>
+    <div id="fondo-familia" class="fondogris nada">
+        <div class="inforContenedor">
+            <h2>Familia</h2>
+            <p>Padre: Francesco Neri<br>
+            Trabajaba como notario en Florencia.<br>
+            <br>
+            Madre: Lucrezia Soldi<br>
+            Falleció cuando Felipe era aún joven.<br>
+            <br>
+            Madrastra:<br>
+            Tras la muerte de su madre, su padre volvió a casarse.<br></p>
+            <button id="cerrarFamilia">Cerrar</button>
+        </div>
+    </div>
+
+    <button data-modal="milagros">Milagros</button>
+    <button data-modal="familia">Familia</button>
+
+    <div id="milagros" class="modal oculto">
+        <p>Milagros de San Martín</p>
+    </div>
+
+    <div id="familia" class="modal oculto">
+        <p>Familia de San Martín</p>
+    </div>
+    <script src="scriptFelipe.js"></script>
+</body>
+</html>
