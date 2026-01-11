@@ -1,0 +1,35 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.lugar{
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(196, 196, 196);
+    border: solid 2px black ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.lugar a{
+    color: black;
+    background-color: azure;
+    padding: 7px;
+    border: solid 3px black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.lugar a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.lugar p{
+    margin-bottom: 30px;
+}
